@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item >
+        <shape android:shape="rectangle">
+
+
+            <gradient
+                android:startColor="@color/button_light"
+                android:endColor="@color/button_dark"
+                android:angle="@integer/button_gradient_angle"/>
+
+            <corners
+                android:bottomRightRadius="@dimen/outer_view_corner_radius" />
+        </shape>
+    </item>
+
+
+</layer-list>

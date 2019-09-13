@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="4dp"
+    >
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="105dp"
+        android:layout_margin="0dp"
+        android:background="@drawable/teamfragmentbackground"
+        android:gravity="center">
+
+        <com.example.scoreboardsnippet.CompoundViews.DigitView
+            android:id="@+id/digitView_PFS_item_playerNumber"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:padding="2dp"
+            app:_number_of_digits="2"
+            app:_display_color="@color/segment_green"
+            />
+        <com.example.scoreboardsnippet.CompoundViews.DigitView
+            android:id="@+id/digitView_PFS_item_playerFoul"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:padding="2dp"
+            android:layout_toEndOf="@+id/digitView_PFS_item_playerNumber"
+            app:_number_of_digits="1"
+            app:_plus_minus_buttons_visible="true"
+            />
+
+        <com.example.scoreboardsnippet.CompoundViews.DigitView
+            android:id="@+id/digitView_PFS_item_playerScore"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:layout_toEndOf="@+id/digitView_PFS_item_playerFoul"
+            android:padding="2dp"
+            app:_number_of_digits="2"
+            app:_plus_minus_buttons_visible="true" />
+
+
+
+    </RelativeLayout>
+
+
+
+
+
+</androidx.cardview.widget.CardView>

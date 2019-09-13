@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">ScoreboardSnippet</string>
+
+    <string name="home">HOME</string>
+    <string name="fouls">FOULS</string>
+    <string name="guest">GUEST</string>
+    <string name="connect">CONNECT</string>
+    <string name="disconnect">DISCONNECT</string>
+    <string name="button_serial_settings_caption">Serial</string>
+    <string name="player_foul">PLAYER/FOUL</string>
+    <string name="period">PERIOD</string>
+    <string name="time_outs">TIME OUTS</string>
+    <string name="ok">OK</string>
+    <string name="cancel">CANCEL</string>
+    <string name="insert">INSERT</string>
+    <string name="remove">REMOVE</string>
+
+    <dimen name="numpad_number_size">35dp</dimen>
+    <dimen name="numpad_text_size">20dp</dimen>
+    <integer name="button_gradient_angle">-90</integer>
+
+
+    <!-- pay attention to dimensions for creating concentric corner radii -->
+    <!-- all inner radii must add up to the full corner radius below to look correct -->
+    <dimen name="outer_view_corner_radius">10dp</dimen>
+    <dimen name="inner_view_corner_radius">10dp</dimen>
+    <dimen name="outer_view_stroke_width">0dp</dimen>
+
+    <dimen name="full_screen_corner_radius">25dp</dimen>
+    <dimen name="full_screen_outer_padding">0dp</dimen>
+    <dimen name="inner_screen_corner_radius">18dp</dimen>
+    <dimen name="inner_screen_stroke_width">5dp</dimen>
+</resources>

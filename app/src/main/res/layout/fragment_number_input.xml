@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:clickable="true"
+    android:background="@color/dim_black"
+    android:elevation="100dp"
+    >
+
+    <!---//tools:context=".DEPRECATED.DEPRECATED_NumberInputFragment"-->
+
+    <LinearLayout
+        android:gravity="center_horizontal"
+        android:layout_width="400dp"
+        android:layout_height="650dp"
+        android:background="@drawable/teamfragmentbackground"
+        android:orientation="vertical"
+        android:paddingHorizontal="20dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="20dp"
+        android:weightSum="5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tvNumInputTitle"
+                style="@style/DisplayLabel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Title"
+
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:padding="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="150dp">
+
+            <TextView
+                android:id="@+id/tvNumInputText"
+                android:textSize="120dp"
+                style="@style/SegmentDisplay"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:weightSum="3"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+
+            <LinearLayout
+                android:padding="5dp"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+
+                <Button
+                    style="@style/StyledButton"
+                    android:id="@+id/btNumInputClear"
+                    android:text="Clear"
+                    android:textSize="@dimen/numpad_text_size"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:padding="5dp"
+                android:layout_weight="2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+
+                <Button
+                    style="@style/StyledButton"
+                    android:id="@+id/btNumInputMinus1"
+                    android:text="-1"
+                    android:textSize="@dimen/numpad_number_size"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:weightSum="3"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+
+            <LinearLayout
+                android:padding="5dp"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+
+                <Button
+                    style="@style/StyledButton"
+                    android:id="@+id/btNumInput1"
+                    android:text="1"
+                    android:textSize="@dimen/numpad_number_size"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:padding="5dp"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+
+                <Button
+                    style="@style/StyledButton"
+                    android:id="@+id/btNumInput2"
+                    android:text="2"
+                    android:textSize="@dimen/numpad_number_size"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:padding="5dp"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+
+                <Button
+                    style="@style/StyledButton"
+                    android:id="@+id/btNumInput3"
+                    android:text="3"
+                    android:textSize="@dimen/numpad_number_size"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:weightSum="3"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+
+            <LinearLayout
+                android:padding="5dp"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+
+                <Button
+                    style="@style/StyledButton"
+                    android:id="@+id/btNumInput4"
+                    android:text="4"
+                    android:textSize="@dimen/numpad_number_size"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:padding="5dp"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+
+                <Button
+                    style="@style/StyledButton"
+                    android:id="@+id/btNumInput5"
+                    android:text="5"
+                    android:textSize="@dimen/numpad_number_size"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:padding="5dp"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+
+                <Button
+                    style="@style/StyledButton"
+                    android:id="@+id/btNumInput6"
+                    android:text="6"
+                    android:textSize="@dimen/numpad_number_size"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:weightSum="3"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+
+            <LinearLayout
+                android:padding="5dp"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+
+                <Button
+                    style="@style/StyledButton"
+                    android:id="@+id/btNumInput7"
+                    android:text="7"
+                    android:textSize="@dimen/numpad_number_size"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:padding="5dp"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+
+                <Button
+                    style="@style/StyledButton"
+                    android:id="@+id/btNumInput8"
+                    android:text="8"
+                    android:textSize="@dimen/numpad_number_size"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:padding="5dp"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+
+                <Button
+                    style="@style/StyledButton"
+                    android:id="@+id/btNumInput9"
+                    android:text="9"
+                    android:textSize="@dimen/numpad_number_size"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:weightSum="3"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+
+            <LinearLayout
+                android:padding="5dp"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+
+                <Button
+                    style="@style/StyledButton"
+                    android:id="@+id/btNumInputCancel"
+                    android:text="Cancel"
+                    android:textSize="@dimen/numpad_text_size"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:padding="5dp"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+
+                <Button
+                    style="@style/StyledButton"
+                    android:id="@+id/btNumInput0"
+                    android:text="0"
+                    android:textSize="@dimen/numpad_number_size"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:padding="5dp"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+
+                <Button
+                    style="@style/StyledButton"
+                    android:id="@+id/btNumInputOk"
+                    android:text="Ok"
+                    android:textSize="@dimen/numpad_text_size"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

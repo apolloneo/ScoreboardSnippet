@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="DigitView">
+        <attr name="_number_of_digits" format="integer" />
+        <attr name="_description" format="string"/>
+        <attr name="_description_visible" format="boolean"/>
+        <attr name="_plus_minus_buttons_visible" format="boolean"/>
+        <attr name="_display_color" format="color"/>
+    </declare-styleable>
+
+    <declare-styleable name="TimerView">
+        <attr name="_number_of_timer_buttons" format="integer"/>
+        <attr name="_stopped_color" format="color"/>
+        <attr name="_counting_color" format="color"/>
+        <attr name="_tenths_visible" format="boolean"/>
+        <attr name="_minutes_visible" format="boolean"/>
+        <attr name="_overflow_seconds" format="boolean"/>
+        <attr name="_autocorrect_format" format="boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="MultiDigitView">
+        <attr name="_number_of_displays" format="integer"/>
+        <attr name="_individual_display_width" format="dimension"/>
+        <attr name="_connect_displays" format="boolean"/>
+        <attr name="_number_of_digits_per_display" format="integer"/>
+    </declare-styleable>
+
+
+</resources>
